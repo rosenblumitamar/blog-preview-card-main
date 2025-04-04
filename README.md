@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-l4vL7G_3mB](https://www.frontendmentor.io/solutions/blog-preview-card-l4vL7G_3mB)
+- Live Site URL: [https://project-blog-preview-card-main.netlify.app](https://project-blog-preview-card-main.netlify.app)
 
 ## My process
 
