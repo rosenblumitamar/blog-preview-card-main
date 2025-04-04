@@ -1,0 +1,119 @@
+/* variable decleration */
+:root {
+  --white: #ffffff;
+  --yellow: #f4d04e;
+  --grey: #6b6b6b;
+  --dark: #121212;
+}
+
+/* styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: clamp(15px, 3.7vw, 16px);
+  color: var(--dark);
+  background-color: var(--yellow);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blog-card {
+  width: 384px;
+  padding: 24px 24px 0 24px;
+  border: 1px solid var(--dark);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 var(--dark);
+  background-color: var(--white);
+  transition: 0.2s;
+}
+
+.blog-card:hover {
+  box-shadow: 16px 16px 0 var(--dark);
+}
+
+.blog-card:hover .card-header-link:link,
+.blog-card:hover .card-header-link:visited,
+.blog-card:hover .card-header-link:active,
+.blog-card:hover .card-header-link:hover {
+  color: var(--yellow);
+}
+
+/* card img */
+.card-image img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* cardpublish */
+.card-publish {
+  padding: 20px 0;
+}
+
+.topic-link {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  background-color: var(--yellow);
+}
+
+.publish-para {
+  padding-top: 13px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* card content */
+.card-content {
+  padding-bottom: 22px;
+}
+
+.card-header {
+  padding-bottom: 18px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.content-para {
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+/* card author */
+.card-author {
+  display: flex;
+  padding-bottom: 18px;
+}
+
+.card-author img {
+  width: 32px;
+  height: 32px;
+}
+
+.author-name {
+  padding-left: 12px;
+  line-height: 2.2;
+  font-size: 0.875rem;
+  font-weight: 800;
+}
